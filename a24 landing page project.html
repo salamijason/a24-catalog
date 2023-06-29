@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A24 Films</title>
+    <style>
+      body {
+        background: radial-gradient(
+          circle at 10% 20%,
+          rgba(216, 241, 230, 0.46) 0.1%,
+          rgba(233, 226, 226, 0.28) 90.1%
+        );
+        font-family: "Times New Roman", Times, serif;
+      }
+      h1 {
+        text-align: center;
+        margin: 0 auto;
+        font-size: larger;
+      }
+      h2 {
+        margin: 5px 15px;
+        font-weight: bolder;
+      }
+      h3 {
+        display: inline;
+        font-style: italic;
+      }
+      p {
+        margin: 10px 50px;
+        line-height: 25px;
+      }
+      button {
+        border: 0px solid #bbb7b7;
+        border-radius: 4px;
+        padding: 10px 20px;
+        box-shadow: 2px 2px 2px #302e2e;
+        background-color: rgb(72, 145, 212);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #22313f;
+        color: #bbb7b7;
+      }
+      hr {
+        border-style: none;
+      }
+      .header {
+        margin: 20px auto;
+      }
+      .logo {
+        display: block;
+        margin: 50px auto 10px auto;
+        width: 150px;
+      }
+      .content {
+        color: #eef9f4;
+      }
+      .row {
+        text-align: center;
+        margin: 40px 20%;
+      }
+      .movieInfo {
+        background: radial-gradient(
+          circle at 10% 20%,
+          rgb(90, 92, 106) 0%,
+          rgb(32, 45, 58) 81.3%
+        );
+        border: 0.5px solid #bbb7b7;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 0 auto;
+        box-shadow: 2px 2px 5px #bbb7b7;
+      }
+      .poster {
+        margin: 0;
+        width: 30%;
+        display: inline;
+        border: 0px solid #bbb7b7;
+        border-radius: 15px;
+      }
+      .scene {
+        margin: 0;
+        width: 67%;
+        display: inline;
+        border: 0px solid #bbb7b7;
+        border-radius: 15px;
+      }
+      .footer {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+        font-size: smaller;
+        margin: auto auto 20px auto;
+      }
+      .rateUpdateHereditary {
+        font-style: italic;
+      }
+      .rateUpdateMidsommar {
+        font-style: italic;
+      }
+      .Synopsis {
+        color: rgb(72, 145, 212);
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/980/original/2560px-A24_logo.svg.png?1681454973"
+        alt="A24 Logo"
+        class="logo"
+      />
+      <h1>Films</h1>
+    </div>
+    <div class="content">
+      <div class="row">
+        <div class="movieInfo">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/981/original/image_2023-04-14_141029957.png?1681458039"
+            alt="Hereditary Movie Po<ster"
+            class="poster"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/990/original/image_2023-04-14_145039035.png?1681460442"
+            alt="Hereditary scene"
+            class="scene"
+          />
+          <h2>Hereditary</h2>
+          <h3>2018</h3>
+          <br />
+          <p>
+            <span class="Synopsis"> <strong>Synopsis:</strong></span>
+            When the matriarch of the Graham family passes away, her daughter
+            and grandchildren begin to unravel cryptic and increasingly
+            terrifying secrets about their ancestry, trying to outrun the
+            sinister fate they have inherited.
+          </p>
+          <hr />
+          <button class="streamHereditary">
+            <a
+              href="https://www.netflix.com/title/80238910"
+              alt="Link to stream on Netflix"
+            >
+              Watch Now
+            </a>
+          </button>
+          <button class="rateHereditary">Rate</button>
+          <p class="rateUpdateHereditary">You have not rated the movie.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="movieInfo">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/992/original/image_2023-04-14_154439590.png?1681463687"
+            alt="Midsommar Movie Po<ster"
+            class="poster"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/993/original/image_2023-04-14_154501828.png?1681463706"
+            alt="Midsommar scene"
+            class="scene"
+          />
+          <h2>Midsommar</h2>
+          <h3>2019</h3>
+          <br />
+          <p>
+            <span class="Synopsis"> <strong>Synopsis:</strong></span>
+            A couple travel to Sweden to visit their friend's rural hometown for
+            its fabled midsummer festival, but what begins as an idyllic retreat
+            quickly devolves into an increasingly violent and bizarre
+            competition at the hands of a pagan cult.
+          </p>
+          <hr />
+          <button class="streamMidsommar">
+            <a
+              href="https://www.netflix.com/title/81071055"
+              alt="Link to stream on Netflix"
+            >
+              Watch Now
+            </a>
+          </button>
+          <button class="rateMidsommar">Rate</button>
+          <p class="rateUpdateMidsommar">You have not rated the movie.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      coded by
+      <a
+        alt="Link to CV"
+        href="https://oattrakyaw.notion.site/Kyaw-Oattra-CV-1e80d3697dc64074a8cb86b78c1a83da"
+      >
+        Oattra Kyaw</a
+      >
+    </div>
+
+    <script>
+      function changeRating(movie, finalrating) {
+        let rateNewHereditary = document.querySelector(".rateUpdateHereditary");
+        let rateNewMidsommar = document.querySelector(".rateUpdateMidsommar");
+        if (movie == "Hereditary") {
+          rateNewHereditary.innerHTML = `You have rated ${movie} a ${finalrating} out of 10.`;
+        } else {
+          rateNewMidsommar.innerHTML = `You have rated ${movie} a ${finalrating} out of 10.`;
+        }
+      }
+      function rateHereditary() {
+        let rating = prompt(
+          `From 0-10 (10 being the best), how would you rate Hereditary?`
+        );
+        alert("Thanks for rating!");
+
+        changeRating("Hereditary", rating);
+      }
+      function rateMidsommar() {
+        let rating = prompt(
+          `From 0-10 (10 being the best), how would you rate Midsommar?`
+        );
+        alert("Thanks for rating!");
+
+        changeRating("Midsommar", rating);
+      }
+      let rateHereditarybutton = document.querySelector(".rateHereditary");
+      rateHereditarybutton.addEventListener("click", rateHereditary);
+      let rateMidsommarbutton = document.querySelector(".rateMidsommar");
+      rateMidsommarbutton.addEventListener("click", rateMidsommar);
+    </script>
+  </body>
+</html>
